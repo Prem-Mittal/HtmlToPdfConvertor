@@ -1,0 +1,49 @@
+# Frontend (React/Vue/Angular)
+FRONTEND/node_modules/
+FRONTEND/.env
+
+# Backend (Node.js/Python/etc.)
+# --- Build & IDE ---
+backend/target/
+backend/.idea/
+backend/*.iml
+backend/*.ipr
+backend/*.iws
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.factorypath
+backend/bin/
+
+# --- Maven ---
+backend/pom.xml.tag
+backend/pom.xml.releaseBackup
+backend/pom.xml.versionsBackup
+backend/pom.xml.next
+backend/release.properties
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# --- Logs & Environment ---
+backend/*.log
+backend/logs/
+backend/**/logs/
+backend/.env
+backend/*.env
+backend/**/.env*
+
+# --- System Files ---
+backend/.DS_Store
+backend/Thumbs.db
+
+# --- YAML Configs ---
+backend/application-*.yml
+!backend/application.yml  # Keep base config
+
+# --- Other temp files ---
+backend/*.swp
+backend/*.bak
+backend/*.cache
+backend/*.diff
+backend/*.patch
+backend/*.tmp
+backend/*.orig
